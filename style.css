@@ -1,0 +1,93 @@
+/* Styles for the complaint form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+}
+
+/* Styles for the admin page */
+.admin-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.complaint-card {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.complaint-card p {
+  margin-bottom: 10px;
+}
+
+.complaint-card .complaint-details {
+  font-weight: bold;
+}
+
+.complaint-card .complaint-message {
+  margin-top: 10px;
+}
+
