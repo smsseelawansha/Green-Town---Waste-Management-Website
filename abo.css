@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.d2 {
+    text-align: center;
+}
+
+.d3 {
+    margin: 0 auto; 
+    width: 80%;
+}
